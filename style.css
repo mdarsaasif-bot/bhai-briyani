@@ -1,0 +1,1077 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+
+}
+
+body {
+}
+
+li {
+    list-style: none;
+}
+
+/* navbar section ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.navbar {
+    background-color: rgb(138, 7, 7) !important;
+    color: white !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+/* left side of navbar section */
+.dropdown a {
+    background-color: rgb(245, 241, 241);
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: black !important;
+    margin-top: 4px;
+}
+
+.dropdown-item {
+    padding: 5px !important;
+    background-color: white !important;
+}
+
+.dropdown-menu>li>a {
+    color: black !important;
+}
+
+.collapse a {
+    font-weight: bold;
+}
+
+.scooter {
+    margin-left: 40px;
+}
+
+.scooter img {
+    margin-top: 20px;
+}
+
+.scooter p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* right side of navbar section */
+.order {
+    padding: 8px 12px;
+    background-color: rgb(235, 152, 19);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    gap: 25px;
+}
+
+/* media query for navbar section  */
+@media (max-width:1400px) {
+    .collapse ul>li>a {
+        font-size: 10px;
+    }
+
+    .order {
+        font-size: 10px;
+    }
+
+    .navbar-nav {
+        gap: 20px;
+    }
+
+    .scooter>p {
+        font-size: 13px;
+    }
+
+    .navbar h6 {
+        font-size: 12px
+    }
+
+    .nav-item a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:600px) {
+    .scooter {
+        display: none !important;
+    }
+}
+
+/* banner section ---------------------------------------------------------------------------------------------------------------------------------- */
+.banner {
+    padding: 50px 0px;
+    background-color: rgb(138, 7, 7) !important;
+    color: white;
+}
+
+/* left side of banner -wrapper ------------- */
+/* sale  section in banner */
+.gt {
+    border: none;
+    background-color: rgb(231, 231, 57);
+    padding: 10px 20px;
+}
+
+.order-now button {
+    border: none;
+    padding: 10px;
+    background-color: rgb(222, 44, 44);
+    color: white;
+}
+
+.sale {
+    margin-top: 40px;
+}
+
+.sale span {
+    margin-left: 35px;
+}
+
+.sale span:nth-child(3) {
+    font-size: 30px;
+    color: yellow;
+}
+
+.banner-wrapper h1 {
+    font-size: 70px;
+    font-weight: 700;
+    max-width: 70%;
+}
+
+.banner-wrapper p {
+    max-width: 70%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* right side of banner-wrapper ------------- */
+.truck {
+    width: 100px;
+    height: 180px;
+    padding: 10px;
+
+}
+
+.truck p {
+    opacity: 80%;
+}
+
+.truck:hover {
+    border: 2px solid yellow;
+    border-radius: 50px;
+    width: 120px;
+    height: 190px;
+    padding-left: 23px;
+    padding-top: 15px;
+
+    transition: all 0.7s ease-in-out;
+}
+
+.bir {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.biryani-grp {
+    display: flex;
+    /* animation-name: example;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+} 
+
+.biryani {
+    width: 100%;
+    width: 600px;
+    flex-shrink: 0;
+}
+
+@keyframes example {
+    0% {
+        transform: translateX(0)
+    }
+
+    20% {
+        transform: translateX(-100%);
+    }
+
+    40% {
+        transform: translateX(-200%);
+    }
+
+    60% {
+        transform: translateX(-300%);
+    }
+
+    80% {
+        transform: translateX(-400%);
+    }
+
+    100% {
+        transform: translateX(-500%);
+    }
+}
+
+.thumbnail-row {
+    display: flex;
+    gap: 30px;
+}
+
+.thumbnail-row .icon {
+    width: 80px;
+    margin: 10px;
+}
+
+.white {
+    display: flex;
+}
+
+.box-parent {
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    margin-left: 8px;
+    margin-top: 3px;
+    border-radius: 5px;
+    background-color: rgba(238, 236, 236, 0.2);
+    /* Light transparent bg */
+    backdrop-filter: blur(0.3px);
+    /* Optional: adds a slight blur */
+}
+
+/* media query for banner section */
+@media (max-width:1400px) {
+
+    .thumbnail-row .icon {
+        width: 50px;
+        margin: 10px;
+    }
+
+    .box {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        margin-left: 8px;
+        margin-top: 3px;
+    }
+}
+
+@media (max-width:992px) {
+
+    .thumbnail-row .icon {
+        width: 40px;
+        margin: 5px;
+    }
+
+    .box {
+        position: absolute;
+        width: 50px;
+        height: 40px;
+        margin-left: 2px;
+        margin-top: 1px;
+    }
+
+    .biryani {
+        width: 450px;
+    }
+}
+
+@media (max-width:580px) {
+    .banner {
+        padding: 0px 20px;
+        padding-top: 30px;
+    }
+}
+
+
+/* taste section ------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.taste {
+    padding: 50px 0px;
+    background-color: rgb(138, 7, 7) !important;
+    color: white;
+    overflow-x: hidden;
+}
+
+.taste h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.taste p {
+    max-width: 60%;
+    line-height: 25px;
+    padding: 50px 0px;
+
+}
+
+.tastes {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.tastes img {
+    width: 110px;
+    opacity: 0;
+}
+
+.taste img:hover {
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    scale: 2;
+}
+
+/* media query for taste section  */
+@media (max-width:1100px) {
+    .tastes img {
+        width: 50px;
+    }
+}
+
+@media (max-width:580px) {
+    .taste p {
+        max-width: 100%;
+        text-align: justify;
+        margin: 0px 20px;
+    }
+}
+
+
+/* special section ----------------------------------------------------------------------------------------------------------------------------------------------------- */
+.special {
+    padding-top: 20px;
+    background-color: rgb(138, 7, 7) !important;
+    color: white;
+    height: 100vh;
+}
+
+.special h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* layer-one */
+.slide {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.one {
+    width: 800px;
+    height: 500px;
+    background-color: rgb(111, 24, 24);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.one h1 {
+    text-align: end;
+    font-size: 100px;
+    font-weight: 700;
+    padding-top: 60px;
+
+}
+
+.two {
+    width: 800px;
+    height: 500px;
+    background-color: rgb(111, 24, 24);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+}
+
+.two h1 {
+    font-size: 100px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+
+/* layer-two*/
+.slide2 {
+    display: flex;
+    position: relative;
+    z-index: 0;
+    bottom: 500px;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.left {
+    width: 800px;
+    height: 500px;
+    background-color: rgb(187, 185, 185);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+
+    position: relative;
+    right: 900px;
+}
+
+.right {
+    position: relative;
+    left: 900px;
+}
+
+.left img {
+    width: 600px;
+}
+
+.right h5 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 30%;
+    max-width: 80%;
+    margin-left: 60px;
+}
+
+/* media query for special section */
+/* for outer -layer */
+@media (max-width:992px) {
+    .slide h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:768px) {
+    .slide h1 {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    .one,
+    .two {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+/* for inner inner-layer */
+@media (max-width:1200px) {
+    .slide2 h5 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:992px) {
+    .slide2 h5 {
+        font-size: 28px;
+    }
+
+    .left img {
+        width: 400px;
+    }
+}
+
+@media (max-width:768px) {
+    .slide2 {
+        bottom: 260px;
+    }
+
+    .left {
+        width: 300px;
+        height: 250px;
+    }
+
+    .slide2 h5 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:560px) {
+    .slide2 h5 {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .left {
+        width: 200px;
+        height: 180px;
+    }
+}
+
+/* for overall special */
+@media (max-width:768px) {
+    .special {
+        height: 60vh;
+    }
+}
+
+/* signature section -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.signature {
+    background-color: rgb(138, 7, 7) !important;
+    color: white;
+    overflow-y: hidden;
+    padding: 30px;
+    overflow: hidden ;
+}
+.signature h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.signature-wrapper {
+    display: flex;
+}
+
+/* set1 ----------------------------------------------------------------------- */
+.set1 {
+    display: flex;
+    align-items: center;
+}
+
+.foods {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foods>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.foods img {
+    width: 60px;
+}
+
+.foods span {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.line {
+    width: 5px;
+    height: 280px;
+    background-color: rgb(250, 249, 246);
+    border-radius: 10px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.sl {
+    width: 5px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: yellow;
+    position: absolute;
+}
+
+/* set2 ----- */
+.set2 {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 800px;
+    height: 380px;
+    background-color: white;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%) !important;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* gap: 400px; */
+    position: relative;
+    overflow-x: hidden;
+    /* z-index: 0; */
+}
+
+.slider {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.content {
+    /* position: relative;
+    left: 150px;
+    top: 50px;
+    width: 50%;
+    z-index: 1; */
+
+    min-width: 100%;
+    padding: 50px 40px;
+    box-sizing: border-box;
+
+    position: relative;
+    left: 140px;
+
+}
+
+.content h5:nth-child(1) {
+    margin-top: 30px;
+}
+
+.content h5 {
+    font-size: 20px;
+    color: rgb(133, 13, 13);
+    font-weight: 500;
+}
+
+.content p {
+    max-width: 40%;
+    margin: 30px 0px;
+
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 130px;
+    right: 240px;
+
+}
+
+.btns span {
+    color: red;
+    position: relative;
+    right: 300px;
+    top: 80px;
+    font-size: 38px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* big-img --- */
+.img-grp {
+    display: flex;
+    gap: 10px;
+}
+
+.bigfood {
+    width: 600px;
+    position: relative;
+   
+}
+.bf1 {
+    right: 200px;
+    transition: all 1s linear;
+    opacity: 1;
+}
+.bf2 {
+    transition: all 1s linear;
+    opacity: 0;
+    right: 0px;
+} 
+/* responsive */
+@media (max-width:1300px) {
+
+  .bigfood {
+    width: 600px;
+    right: 800px
+  }  
+}
+
+@media (max-width:1200px) {
+    .signature-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .set2{
+        display: none;
+    }
+}
+
+
+
+
+
+/* customer section ------------------------------------------------------------------------------------------------------- */
+.customer{
+    padding: 40px 0px;
+    background-color: rgb(138, 7, 7) !important;
+    color: black;
+    overflow-x: hidden;
+}
+.customer h2{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+.customer-scroller{
+    display: flex;
+    gap: 50px;
+    /* animation: scroll 20s linear infinite; */
+}
+
+.cust{
+    width: 300px;
+    height: 280px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+/* media query for customers */
+@media (max-width:1200px) {
+    .cust{
+    width: 200px;
+    height: 220px;
+    }
+    .cust p{
+        font-size: 10px;
+    }
+}
+
+
+/* mandhi section --------------------------------------------------------------------------------------------------------------------------------------- */
+.mandhi{
+    padding: 40px 0px;
+    background-color: rgb(138, 7, 7) !important;
+    color: white;
+    overflow-x: hidden;
+}
+.upper{
+    width: 100%;
+    height: 100px;
+        background-color: rgb(138, 7, 7) !important;
+
+    border-bottom-left-radius:80%;
+    border-bottom-right-radius:80%;
+    position: relative;
+    z-index: 3;
+    top: 50px;
+
+}
+.lower{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(138, 7, 7) !important;
+
+    border-top-left-radius:80%;
+    border-top-right-radius:80%;
+    position: relative;
+    z-index: 3;
+    bottom: 50px;
+}
+.seperate{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.yellow{
+    background-color: rgb(212, 176, 15);
+    padding-left: 180px;
+    height: 600px;
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.yellow p{
+    max-width: 80%;
+}
+.white img{
+    position: relative;
+    z-index: 4;
+    right: 100px;
+}
+.yellow h1{
+    font-size: 60px;
+    color: red;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+}
+
+.yellow h1::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 240px;
+  height: 2px;
+  background: white;
+}
+.yellow h1::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 240px;
+  height: 2px;
+  background: white;
+  margin-top: 70px;
+}
+.gtd {
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+}
+@media (max-width:1100px) {
+    .white img{
+        width: 500px;
+    }
+}
+@media (max-width:1008px) {
+    .white img{
+        width: 300px;
+        right: 100px;
+    }
+    .yellow p{
+      max-width: 70%;
+    }
+}
+@media (max-width:850px) {
+    .white img{
+        width: 300px;
+        right: 0px;
+        left: 0px;
+    }
+}
+@media (max-width:900px) {
+    .white img{
+        width: 300px;
+        right: 160px;
+    }
+    .yellow p{
+      max-width: 70%;
+      font-size: 10px;
+    }
+}
+@media (max-width:755px) {
+     .white img{
+        right: 40px;
+     }
+}
+
+@media (max-width:650px) {
+    .seperate{
+    display: flex;
+    flex-direction: column;
+    }
+       .white img{
+        width: 550px;
+       }
+        .yellow p{
+      max-width: 70%;
+      font-size: 20px;
+    }
+}
+
+/* faq section -------------------------------------------------------------------------------------------------------------------------------------- */
+.faq{
+    padding: 40px 0px;
+    background-color: rgb(138, 7, 7) !important;
+    color: white;
+}
+.faq h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+.faq-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.faq p{
+    max-width: 60%;
+}
+.faq span{
+    cursor: pointer;
+}
+.gmail{
+    background-color: orange;
+    padding: 10px 12px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.faone{
+    position: relative;
+    height: 150px;
+    margin-top: 0px;
+    margin-bottom:0px ;
+}
+.fa{
+    background-color: rgb(250, 217, 194);
+    color: black;
+    font-weight: 400;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+.fas{
+    background-color: rgb(250, 217, 194);
+    color: black;
+    font-weight: 400;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+
+    position: absolute;  
+     z-index: 1;
+     top: 0px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+/* footer section ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+footer{
+    padding: 40px 0px;
+    color: black;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    margin-top: 30px;
+}
+.flogo{
+    width: 200px;
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-wrapper>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-wrapper>div>img{
+    width: 40px;
+}
+.contact{
+    display: flex;
+    gap: 40px;
+}
+.get p{
+    margin-top: 20px;
+}
+.get input{
+    padding: 10px;
+    border-radius: 30px;
+}
+.get i{
+    position: relative;
+    left: 190px;
+    z-index: 1;
+    bottom: 35px;
+}
+
+@media (max-width:1300px) {
+    .contact ul>li{
+        font-size: 10px;
+    }
+    .get p{
+        font-size: 10px;
+    }
+    .get input{
+        width: 100%
+    }
+    .get input:placeholder-shown{
+        font-size: 9px;
+    }
+    .get i{
+        display: none;
+    }
+}
+@media (max-width:992px) {
+     .get input{
+        display: none;
+    }
+}
+@media (max-width:900px) {
+   .contact{
+    display: flex;
+    flex-wrap: nowrap;
+   }
+}
+@media (max-width:768px) {
+    .phase-2{
+        margin-top: 50px;
+    }
+}
+@media (max-width:580px) {
+
+    .footer-wrapper{
+        text-align: center;
+    }
+    .footer-wrapper>div{
+        margin-left: 30%;
+    }
+    .flogo{
+        margin-left: 20% ;
+    }
+
+    .contact{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+}
+.contact ul>li{
+    font-size: 20px;
+}
+.contact h6{
+    font-weight: 600;
+    font-size: 30px;
+}
+}
